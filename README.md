@@ -2,13 +2,28 @@
 
 ## Usage
 
-And it should run
+### Usage in "pure" esxDOS
+
+Copy `hrun` file to  `/BIN/` directory.
+Type in commandline:
 
 ```
 .hrun filename.$c
 ```
+### Usage in esxDOS with LFN browser
 
-You can use it with LFN browser. Just copy `$C` file to `/BIN/BPLUGINS` directory.
+Copy `hrun` file to  `/BIN/` directory, copy `$C` file to `/BIN/BPLUGINS` directory.
+Select in LFN browser hobeta (`____.$C`) file and press Enter.
+
+### Usage in NextZXOS on ZX Spectrum Next
+
+Copy `hrun` file to  `/dot/` directory.
+Add next line to your `browser.cfg` in `/nextzxos/` directory:
+
+```
+$C:cls: .hrun |
+```
+Select in NextZXOS browser hobeta (`____.$C`) file and press Enter.
 
 ## Development
 
