@@ -13,7 +13,7 @@ Type in commandline:
 ### Usage in esxDOS with LFN browser
 
 Copy `hrun` file to  `/BIN/` directory, copy `$C` file to `/BIN/BPLUGINS` directory.
-Select in LFN browser hobeta (`____.$C`) file and press Enter.
+Select in LFN browser hobeta (`filename.$C`) file and press Enter.
 
 ### Usage in NextZXOS on ZX Spectrum Next
 
@@ -23,7 +23,7 @@ Add next line to your `browser.cfg` in `/nextzxos/` directory:
 ```
 $C:cls: .hrun |
 ```
-Select in NextZXOS browser hobeta (`____.$C`) file and press Enter.
+Select in NextZXOS browser hobeta (`filename.$C`) file and press Enter.
 
 ## Development
 
